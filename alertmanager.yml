@@ -3,7 +3,7 @@ global:
   smtp_smarthost: 'smtp.gmail.com:587'
   smtp_from: 'subbunandyala48@gmail.com'
   smtp_auth_username: 'subbunandyala48@gmail.com'
-  smtp_auth_password: 'gngvkyfjuygqsqhw'   # <-- use Gmail App Password
+  smtp_auth_password: 'gmge axfl hexc fsoo'   # <-- use Gmail App Password
   smtp_require_tls: true
 
 route:
@@ -15,7 +15,7 @@ route:
 receivers:
   - name: 'gmail-alert'
     email_configs:
-      - to: 'subbunandyala68.com'
+      - to: 'subbunandyala48@gmail.com'
         send_resolved: true
         headers:
-          subject: '[Prometheus Alert] {{ .CommonLabels.alertname }} - Severity: {{ .CommonLabels.severity }}'
+          subject: '[Prometheus Alert] {{ .CommonLabels.alertname }} - Severity: {{ .CommonLabels.severity }}' 
