@@ -7,4 +7,4 @@ ExecStart=/opt/alertmanager/alertmanager --config.file=/opt/alertmanager/alertma
 Restart=on-failure
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=multi-user.target 
