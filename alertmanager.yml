@@ -12,7 +12,7 @@ route:
   group_interval: 5m
   repeat_interval: 1h
 
-receivers:
+receivers:  
   - name: 'gmail-alert'
     email_configs:  
       - to: 'subbunandyala48@gmail.com'
